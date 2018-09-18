@@ -8,4 +8,8 @@ public static void main(String[] args) {
  System.out.println(CelsiustoFahrenheit(9.0));
 }
 
+public static double FahrenheittoCelsius(double F){
+  return (F - 32.0) / 1.8;
+}
+
 }
